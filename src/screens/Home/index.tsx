@@ -11,7 +11,6 @@ const Home = ({navigation}: any) => {
         return response.json();
       })
       .then(json => {
-        console.log(json);
         setData(json);
       });
   }, []);
